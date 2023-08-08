@@ -16,14 +16,14 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
             args: [DECIMALS, INITIAL_PRICE],
         })
         log("Mocks Deployed!")
-        log("------------------------------------------------")
+        log("-----------------------------------------------1")
         log(
             "You are deploying to a local network, you'll need a local network running to interact"
         )
         log(
             "Please run `npx hardhat console` to interact with the deployed smart contracts!"
         )
-        log("------------------------------------------------")
+        log("-----------------------------------------------1")
     }
 }
 module.exports.tags = ["all", "mocks"]
